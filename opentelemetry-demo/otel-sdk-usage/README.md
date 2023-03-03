@@ -42,7 +42,7 @@
 ```
 
 2. OpenTelemetry初始化配置
-- <logical-service-name>为服务名，<host-name>为主机名，请根据您的实际场景配置
+- `<logical-service-name>`为服务名，`<host-name>`为主机名，请根据您的实际场景配置
 ```java
 Resource resource = Resource.getDefault()
         .merge(Resource.create(Attributes.of(
