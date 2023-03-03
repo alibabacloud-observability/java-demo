@@ -11,3 +11,4 @@
 -Dotel.exporter.otlp.endpoint=<endpoint>
 ```
 3. 启动应用，端口号：8081（在`resources/application.properties`中修改）
+- 访问地址：`localhost:8081/user/async`
